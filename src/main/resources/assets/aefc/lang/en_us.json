@@ -1,0 +1,32 @@
+{
+  "message.aefc.escape.start": "Creeper! Auto-escaping!",
+
+  "title.aefc.config": "Auto Escape From Creeper - Config",
+  "category.aefc.general": "General",
+
+  "option.aefc.detectScreenOpen": "Detect when UI open",
+  "option.aefc.detectScreenOpen.tooltip": "Triggers escape when a creeper ignites while you have a screen open. (inventory, chest, etc.)",
+
+  "option.aefc.detectBehind": "Detect creeper behind",
+  "option.aefc.detectBehind.tooltip": "Triggers escape when a creeper ignites behind you.",
+
+  "option.aefc.autoLookBack": "Look back after safe",
+  "option.aefc.autoLookBack.tooltip": "Turns to face the creeper after reaching a safe distance.",
+
+  "option.aefc.shieldBlock": "Shield block when trapped",
+  "option.aefc.shieldBlock.tooltip": "Automatically raises your shield if all escape directions are blocked.",
+
+  "option.aefc.shieldBlockEscapeFails": "Shield block when escape fails",
+  "option.aefc.shieldBlockEscapeFails.tooltip": "Raises your shield when escape time runs out and explosion is imminent.",
+  "option.aefc.shieldBlockEscapeFails.tooltip.warning": "⚠ Note: Raising a shield takes 5 ticks (~0.25s) to fully deploy.\nEnabling this may cost precious escape time and increase the risk of creeper explosions damaging builds. Choose wisely.",
+
+  "option.aefc.blockProtection": "Enable block protection",
+  "option.aefc.blockProtection.tooltip": "If a Creeper is likely to affect blocks on the protection list,\ntry placing water beneath its feet before fleeing, to prevent damage from the explosion.",
+
+  "option.aefc.protectedBlocks": "Protected blocks",
+  "option.aefc.protectedBlocks.tooltip": "List of block IDs or tags to protect. (e.g. minecraft:chest)",
+
+  "option.aefc.allowLavaProtection": "Allow lava bucket protection",
+  "option.aefc.allowLavaProtection.tooltip": "When no water bucket is available, allow using lava to protect blocks.",
+  "option.aefc.allowLavaProtection.tooltip.warning": "⚠ Note: Lava will destroy dropped items and flammable blocks, please ensure you really need this radical feature."
+}

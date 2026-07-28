@@ -1,0 +1,32 @@
+{
+  "message.aefc.escape.start": "小心苦力怕！正在自动逃离！",
+
+  "title.aefc.config": "自动逃离苦力怕（Auto Escape From Creeper）- 配置",
+  "category.aefc.general": "通用",
+
+  "option.aefc.detectScreenOpen": "打开 UI 界面时检测",
+  "option.aefc.detectScreenOpen.tooltip": "开启后，玩家在使用物品栏、箱子等界面时遭遇苦力怕会触发逃离。",
+
+  "option.aefc.detectBehind": "检测背后的苦力怕",
+  "option.aefc.detectBehind.tooltip": "开启后，苦力怕在玩家身后点燃时会触发逃离。",
+
+  "option.aefc.autoLookBack": "安全后自动回头",
+  "option.aefc.autoLookBack.tooltip": "开启后，逃离到安全距离会自动转头看向苦力怕。",
+
+  "option.aefc.shieldBlock": "无路可逃时举盾",
+  "option.aefc.shieldBlock.tooltip": "开启后，所有逃跑方向均被阻挡时，若有盾牌则立即举盾格挡。",
+
+  "option.aefc.shieldBlockEscapeFails": "逃跑失败时举盾",
+  "option.aefc.shieldBlockEscapeFails.tooltip": "开启后，逃跑时间不足以拉开距离、即将爆炸时举盾格挡。",
+  "option.aefc.shieldBlockEscapeFails.tooltip.warning": "⚠ 注意：举盾需要 5 tick（约 0.25 秒）才能完全生效。\n开启此选项可能导致错失逃跑机会，增加苦力怕爆炸破坏建筑的风险。请理性选择。",
+
+  "option.aefc.blockProtection": "启用方块保护",
+  "option.aefc.blockProtection.tooltip": "开启后，如果苦力怕可能波及保护列表中的方块，则尝试先在它脚底放水再逃跑，预防爆炸破坏。",
+
+  "option.aefc.protectedBlocks": "受保护方块列表",
+  "option.aefc.protectedBlocks.tooltip": "需保护的方块 ID 或标签列表。（如 minecraft:chest）",
+
+  "option.aefc.allowLavaProtection": "允许使用岩浆桶保护",
+  "option.aefc.allowLavaProtection.tooltip": "无水桶时是否允许用岩浆桶保护方块。",
+  "option.aefc.allowLavaProtection.tooltip.warning": "⚠ 注意：岩浆会销毁掉落物和易燃方块，请确定你真的需要此激进功能。"
+}

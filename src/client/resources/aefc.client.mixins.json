@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "yibo.aefc.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"refmap": "aefc.client.refmap.json",
+	"client": [
+		"CreeperMixin",
+		"MouseHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

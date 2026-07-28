@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "aefc",
+  "version": "${version}",
+  "name": "Auto Escape From Creeper",
+  "description": "A client-only mod that automatically reacts when a Creeper attempts to sneak up on you, helping you escape easily.",
+  "authors": [
+    "WulanOVO"
+  ],
+  "contact": {
+    "sources": "https://github.com/WulanOVO/aefc"
+  },
+  "license": "MIT",
+  "icon": "assets/aefc/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "yibo.aefc.client.AefcMod"
+    ],
+    "modmenu": [
+      "yibo.aefc.client.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "aefc.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": ">=26.1 <=26.1.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "cloth-config": "*"
+   }
+}
