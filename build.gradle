@@ -1,5 +1,5 @@
 plugins {
-	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+	id 'net.fabricmc.fabric-loom' version '1.17.17'
 	id 'maven-publish'
 }
 
@@ -40,9 +40,9 @@ dependencies {
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-    runtimeOnly "maven.modrinth:sodium:mc26.1.2-0.9.1-fabric"
-    implementation "maven.modrinth:modmenu:18.0.0-beta.1"
-    implementation "maven.modrinth:cloth-config:26.1.154+fabric"
+    runtimeOnly "maven.modrinth:sodium:mc26.2-0.9.1-fabric"
+    implementation "maven.modrinth:modmenu:20.0.1"
+    implementation "maven.modrinth:cloth-config:26.2.155+fabric"
 }
 
 processResources {

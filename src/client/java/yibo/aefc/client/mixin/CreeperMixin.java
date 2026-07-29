@@ -60,7 +60,7 @@ public class CreeperMixin {
         if (distSqr > 49.0) return;
 
         AefcConfig cfg = AefcConfig.get();
-        boolean screenOpen = client.screen != null;
+        boolean screenOpen = client.gui.screen() != null;
 
         boolean triggeredByScreen = screenOpen && cfg.detectWhenScreenOpen;
         boolean triggeredByBehind = false;

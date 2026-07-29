@@ -315,8 +315,8 @@ public class EscapeController {
     private void closeScreen(Minecraft client, LocalPlayer player) {
         if (player.hasContainerOpen()) {
             player.closeContainer();
-        } else if (client.screen != null) {
-            client.setScreen(null);
+        } else if (client.gui.screen() != null) {
+            client.gui.setScreen(null);
         }
     }
 
