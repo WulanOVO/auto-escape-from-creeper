@@ -44,6 +44,15 @@ public class ModMenuIntegration implements ModMenuApi {
                                   .build());
 
             category.addEntry(entry.startBooleanToggle(
+                    Component.translatable("option.aefc.vignette"),
+                    config.vignetteEnabled
+                )
+                                  .setDefaultValue(true)
+                                  .setTooltip(Component.translatable("option.aefc.vignette.tooltip"))
+                                  .setSaveConsumer(v -> config.vignetteEnabled = v)
+                                  .build());
+
+            category.addEntry(entry.startBooleanToggle(
                     Component.translatable("option.aefc.autoLookBack"),
                     config.autoLookBack
                 )

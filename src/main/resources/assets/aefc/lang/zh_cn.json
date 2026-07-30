@@ -10,6 +10,9 @@
   "option.aefc.detectBehind": "检测背后的苦力怕",
   "option.aefc.detectBehind.tooltip": "开启后，苦力怕在玩家身后点燃时会触发逃离。",
 
+  "option.aefc.vignette": "逃跑时屏幕边缘红色泛光",
+  "option.aefc.vignette.tooltip": "开启后，逃跑期间屏幕四边渲染红色脉冲闪烁泛光效果，增强视觉提示。",
+
   "option.aefc.autoLookBack": "安全后自动回头",
   "option.aefc.autoLookBack.tooltip": "开启后，逃离到安全距离会自动转头看向苦力怕。",
 

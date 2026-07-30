@@ -42,10 +42,6 @@ public class EscapeNavigator {
     private int ticksSinceLastChange;
     private boolean trapped;
 
-    // -----------------------------------------------------------------
-    // 公开接口
-    // -----------------------------------------------------------------
-
     public Vec2 getEscapeDirection(Creeper creeper) {
         Minecraft client = Minecraft.getInstance();
         LocalPlayer player = client.player;
