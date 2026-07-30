@@ -10,6 +10,9 @@
   "option.aefc.detectBehind": "Detect creeper behind",
   "option.aefc.detectBehind.tooltip": "Triggers escape when a creeper ignites behind you.",
 
+  "option.aefc.vignette": "Red vignette during escape",
+  "option.aefc.vignette.tooltip": "Renders a pulsing red glow at screen edges during escape for enhanced visual feedback.",
+
   "option.aefc.autoLookBack": "Look back after safe",
   "option.aefc.autoLookBack.tooltip": "Turns to face the creeper after reaching a safe distance.",
 

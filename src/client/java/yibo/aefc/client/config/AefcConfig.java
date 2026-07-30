@@ -27,8 +27,11 @@ public class AefcConfig {
     public boolean detectWhenScreenOpen = true;
     /** 是否检测背后的苦力怕 */
     public boolean detectBehindPlayer = true;
+    /** 逃跑期间屏幕边缘显示红色脉冲泛光提示（闪烁效果） */
+    public boolean vignetteEnabled = true;
     /** 撤出安全距离后，是否自动回头 */
     public boolean autoLookBack = true;
+
     /** 无路可逃时（所有逃跑方向均被阻挡），若有盾牌则自动面向苦力怕下蹲举盾格挡 */
     public boolean shieldBlockWhenTrapped = true;
     /** 预计逃跑失败时举盾（有逃跑方向但时间不足，即将爆炸）*/
